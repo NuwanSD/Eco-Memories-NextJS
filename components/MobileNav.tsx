@@ -1,8 +1,8 @@
 import {
   Sheet,
+  SheetClose,
   SheetContent,
   SheetTrigger,
-  SheetClose,
 } from "../components/ui/sheet";
 import Image from "next/image";
 import { Separator } from "../components/ui/separator";
@@ -23,21 +23,29 @@ const MobileNav = () => {
         </SheetTrigger>
 
         <SheetContent className="flex flex-col bg-white md:hidden">
-          <Link
-            href="/"
-            className="logo uppercase text-3xl md:font-xl font-bold "
-          >
-            Eco-Memories
-          </Link>
+          <SheetClose asChild>
+            <Link
+              href="/"
+              className="logo uppercase text-3xl md:font-xl font-bold "
+            >
+              Eco-Memories
+            </Link>
+          </SheetClose>
 
           <Separator className="border border-gray-500 my-5" />
 
-          <Link href="/" className="dropdown">
-            Home
-          </Link>
-          <Link href="/about" className="dropdown">
-            About
-          </Link>
+          <SheetClose asChild>
+            <Link href="/" className="dropdown">
+              Home
+            </Link>
+          </SheetClose>
+
+          <SheetClose asChild>
+            <Link href="/about" className="dropdown">
+              About
+            </Link>
+          </SheetClose>
+
           {/* <Link href="/analytics" className="dropdown">
             Anaylitcs
           </Link> */}
