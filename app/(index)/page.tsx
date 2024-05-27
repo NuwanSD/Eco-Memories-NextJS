@@ -13,11 +13,16 @@ import CardContent from "../../components/CardContext";
 import Map from "../../components/MapProvider";
 import Accordian from "./components/accordianProvider";
 
+import TextEffect from "./components/textEffect";
+import TypewriterEffectSmoothDemo from "./components/witterEffect";
+import ParagraphEffect from "./components/paraEffect";
+import CardHover from "./components/CardHover";
+
 const Home = () => {
   return (
     <>
       {/*Hero section*/}
-      <section className="px-6 md:px-20 py-20">
+      <section className="px-6 md:px-20 pb-20 pt-10">
         <div className="flex max-xl:flex-col gap-16">
           <div className="flex flex-col justify-center">
             <p className="small-text">
@@ -35,8 +40,9 @@ const Home = () => {
               </h1>
             </div>
             <p className="mt-6">
-              "Eco Memories crafts souvenirs from recycled plastic, turning
-              waste into keepsakes that inspire eco-conscious living."
+              {/* "Eco Memories crafts souvenirs from recycled plastic, turning
+              waste into keepsakes that inspire eco-conscious living." */}
+              <TextEffect />
             </p>
           </div>
           <HeroCarousel />
@@ -49,10 +55,11 @@ const Home = () => {
           <h1 className="section-text">Do You Know?</h1>
           <div>
             <p className=" paragraph-text mt-5">
-              Plastics harm ecosystems worldwide, demanding immediate action to
+              {/* Plastics harm ecosystems worldwide, demanding immediate action to
               reduce usage and promote sustainability. Every small change in
               consumption habits can make a significant difference in protecting
-              our planet's health.
+              our planet's health. */}
+              <ParagraphEffect />
             </p>
           </div>
         </div>
@@ -151,6 +158,12 @@ const Home = () => {
               </Link>
             </div>
           </div>
+        </div>
+      </section>
+      <section>
+        <div>
+          <TypewriterEffectSmoothDemo />
+          {/* <CardHover /> */}
         </div>
       </section>
     </>

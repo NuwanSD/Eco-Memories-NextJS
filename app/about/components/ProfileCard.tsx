@@ -50,7 +50,7 @@ const member = [
     id: 5,
     sid: "ET/2020/063",
     name: "FERNANDO K.G.T.P",
-    imgUrl: "https://github.com/shadcn.png",
+    imgUrl: "/assets/images/Tharushi.jpeg",
     degree: "BET",
     role: "Vending Machine Design",
   },
@@ -75,7 +75,7 @@ const ProfileCard = () => {
             </CardHeader>
             <CardContent>
               <div className="flex gap-5">
-                <Avatar className="w-38 h-36">
+                <Avatar className="w-38 h-36 border-2 border-slate-200">
                   <AvatarImage src={item.imgUrl} />
                   <AvatarFallback>CN</AvatarFallback>
                 </Avatar>

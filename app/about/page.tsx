@@ -10,7 +10,7 @@ const About = () => {
         <ProfileCard />
       </div>
       <div className="px-6 md:px-20 py-10">
-        <p className="">
+        <p className="flex">
           We are a dedicated team of second-year students from the University of
           Kelaniya, specializing in Engineering Technology and Computing
           Technology. As part of our Project in Technology II course, Group 11
