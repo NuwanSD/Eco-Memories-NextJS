@@ -30,7 +30,7 @@ const Home = () => {
       {/*Do you know section*/}
       <section className="px-12 py-20 bg-green-100">
         <div className="text-center ">
-          <h1 className="section-text">Do You Know?</h1>
+          <h1 className="section-text">Do you know?</h1>
           <div className="py-10">
             <ParagraphEffect />
           </div>
@@ -103,16 +103,6 @@ const Home = () => {
 
       <section className="py-20 px-12">
         <InfiniteMovingCardsDemo />
-      </section>
-
-      {/*google map*/}
-      <section className=" pt-10">
-        <div className="">
-          <p className="section-text text-center pb-10">Find US</p>
-          <div className="w-full">
-            <Map />
-          </div>
-        </div>
       </section>
     </>
   );
