@@ -22,13 +22,13 @@ const MobileNav = () => {
           />
         </SheetTrigger>
 
-        <SheetContent className="flex flex-col bg-white md:hidden">
+        <SheetContent className="flex flex-col bg-white md:hidden text-xl">
           <SheetClose asChild>
             <Link
               href="/"
               className="logo uppercase text-3xl md:font-xl font-bold "
             >
-              Eco-Memories
+              <Image src="/logo.svg" alt="logo" width={102} height={102} />
             </Link>
           </SheetClose>
 

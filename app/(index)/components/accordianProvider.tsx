@@ -42,10 +42,10 @@ const content = [
 
 const accordianProvider = () => {
   return (
-    <div className="mt-5">
+    <div className="mt-10 px-10">
       {content.map((Item) => (
-        <Accordion type="single" collapsible key={Item.id}>
-          <AccordionItem value="item-1">
+        <Accordion type="single" collapsible defaultValue="item-1">
+          <AccordionItem value={`item-${Item.id}`} key={Item.id}>
             <AccordionTrigger>{Item.Question}</AccordionTrigger>
             <AccordionContent>{Item.Answer}</AccordionContent>
           </AccordionItem>

@@ -1,10 +1,12 @@
 import React from "react";
+import TypewriterEffectSmoothDemo from "./witterEffect";
 
 const Footer = () => {
   return (
-    <div className="py-5 border-t">
+    <div className="py-5 font-semibold bg-green-100">
+      <TypewriterEffectSmoothDemo />
       <p className="text-center">
-        &copy; {new Date().getFullYear()} Eco-Memories. All rights reserved.
+        &copy; {new Date().getFullYear()} Eco-Memories. All Rights Reserved.
       </p>
     </div>
   );

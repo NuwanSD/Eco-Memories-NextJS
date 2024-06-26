@@ -3,13 +3,13 @@ import ProfileCard from "./components/ProfileCard";
 const About = () => {
   return (
     <>
-      <div className="px-6 md:px-20 py-10">
+      <div className="px-12 py-20">
         <p className="py-10 section-text flex justify-center">
           We Are Group 08
         </p>
         <ProfileCard />
       </div>
-      <div className="px-6 md:px-20 py-10">
+      <div className="px-12 py-20">
         <p className="flex">
           We are a dedicated team of second-year students from the University of
           Kelaniya, specializing in Engineering Technology and Computing

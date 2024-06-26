@@ -54,7 +54,7 @@ const FormDialog = () => {
   };
 
   return (
-    <div className="flex xl:w-1/2 px-6 py-6 bg-[#F2F4F7] rounded-xl">
+    <div className="flex xl:w-1/2 px-6 py-6 bg-slate-100 border-2 rounded-xl drop-shadow-xl">
       <Form {...form}>
         <form
           onSubmit={form.handleSubmit(onSubmit)}
@@ -128,7 +128,7 @@ const FormDialog = () => {
 
           <Button
             type="submit"
-            className=" bg-neutral-black text-white w-36"
+            className=" bg-black hover:border-2 hover:bg-transparent hover:text-black hover:font-bold border-black text-white w-36 rounded-xl"
             disabled={loading}
           >
             {loading ? "Submitting..." : "Submit"}

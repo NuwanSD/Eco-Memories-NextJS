@@ -1,0 +1,26 @@
+ <section className="px-12 py-20 ">
+        <div className="flex max-xl:flex-col gap-16">
+          <div className="flex flex-col justify-center">
+            <p className="small-text">
+              Converting Plastic Waste into Souvnirs:
+              <Image
+                src="/assets/icons/arrow-right.svg"
+                alt="arrow-right"
+                width={16}
+                height={16}
+              />
+            </p>
+            <div className="flex">
+              <h1 className="head-text flex">
+                Eco-<span>Memories</span>
+              </h1>
+            </div>
+            <p className="mt-6">
+              {/* "Eco Memories crafts souvenirs from recycled plastic, turning
+              waste into keepsakes that inspire eco-conscious living." */}
+              <TextEffect />
+            </p>
+          </div>
+          <HeroCarousel />
+        </div>
+      </section>

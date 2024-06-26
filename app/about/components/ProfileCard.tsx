@@ -69,14 +69,14 @@ const ProfileCard = () => {
     <>
       <div className=" grid xl:grid-cols-3 gap-4">
         {member.map((item) => (
-          <Card className="bg-[#F2F4F7]" key={item.id}>
+          <Card className="bg-slate-100 drop-shadow-xl" key={item.id}>
             <CardHeader>
               <CardTitle>{item.name}</CardTitle>
             </CardHeader>
             <CardContent>
               <div className="flex gap-5">
                 <Avatar className="w-38 h-36 border-2 border-slate-200">
-                  <AvatarImage src={item.imgUrl} />
+                  <AvatarImage src={item.imgUrl} alt={item.name} />
                   <AvatarFallback>CN</AvatarFallback>
                 </Avatar>
                 <div className="">

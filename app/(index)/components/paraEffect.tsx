@@ -11,7 +11,7 @@ our planet's health.`;
 
 const ParagraphEffect = () => {
   return (
-    <div>
+    <div className=" paragraph-text">
       <TextGenerateEffect words={words} />
     </div>
   );
