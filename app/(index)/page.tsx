@@ -46,7 +46,7 @@ const Home = () => {
       </section>
 
       {/*Feedback section*/}
-      <section className="px-6 md:px-20 py-20">
+      <section className="px-12 py-20">
         <div className="feedback">
           <p className="section-text text-center">
             Give your valubale feedback
@@ -89,7 +89,7 @@ const Home = () => {
 
       <section className="px-12 py-20">
         <h1 className="section-text text-center">Trending destination</h1>
-        <div>
+        <div className=" mt-10">
           <LayoutGridDemo />
         </div>
       </section>
