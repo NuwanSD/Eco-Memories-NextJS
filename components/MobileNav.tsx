@@ -63,9 +63,15 @@ const MobileNav = () => {
             <div className="flex justify-between items-center dropdown">
               <div>Location</div>
               {!status ? (
-                <ChevronDown onClick={() => setStatus(true)} />
+                <ChevronDown
+                  onClick={() => setStatus(true)}
+                  className=" cursor-pointer"
+                />
               ) : (
-                <ChevronUp onClick={() => setStatus(false)} />
+                <ChevronUp
+                  onClick={() => setStatus(false)}
+                  className=" cursor-pointer"
+                />
               )}
             </div>
             {status && (
