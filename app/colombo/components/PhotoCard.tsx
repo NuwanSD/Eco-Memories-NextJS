@@ -21,9 +21,15 @@ const PhotoCard = () => {
   return (
     <div className=" flex flex-col gap-3">
       {images.map((item) => (
-        <Card>
+        <Card key={item.img} className=" rounded-xl">
           <CardContent className="p-0">
-            <Image src={item.img} alt="images" height={482} width={482} />
+            <Image
+              src={item.img}
+              alt="images"
+              height={482}
+              width={482}
+              className=" rounded-xl"
+            />
           </CardContent>
         </Card>
       ))}
