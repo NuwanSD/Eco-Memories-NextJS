@@ -49,7 +49,10 @@ export function BackgroundGradientDemo() {
   return (
     <div className="flex max-lg:flex-col gap-2">
       {CardProvider.map((Item) => (
-        <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
+        <BackgroundGradient
+          key={Item.id}
+          className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900"
+        >
           <div>
             <Image
               src={`${Item.imgUrl}`}

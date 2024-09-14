@@ -11,9 +11,7 @@ const page = () => {
       <section className=" px-12 py-20">
         <h1 className=" section-text text-center">Colombo City</h1>
         <div className="w-full gap-2 mt-10 flex justify-center items-center">
-          <div className="px-2 w-2/3">
-            <TracingBeamDemo />
-          </div>
+          <div className="px-2 w-2/3">{/* <TracingBeamDemo /> */}</div>
           <div className="lg:flex w-1/3 hidden">
             <PhotoCard />
           </div>
