@@ -1,9 +1,10 @@
 "use client";
 import React from "react";
+
 import { BackgroundGradient } from "../../../components/ui/background-gradient";
-// import { IconAppWindow } from "@tabler/icons-react";
+
 import Image from "next/image";
-import { Item } from "@radix-ui/react-accordion";
+
 import Link from "next/link";
 
 const CardProvider = [
@@ -47,7 +48,7 @@ const CardProvider = [
 
 export function BackgroundGradientDemo() {
   return (
-    <div className="flex max-lg:flex-col gap-2">
+    <div className=" grid grid-cols-2 lg:grid-cols-4 gap-4">
       {CardProvider.map((Item) => (
         <BackgroundGradient
           key={Item.id}

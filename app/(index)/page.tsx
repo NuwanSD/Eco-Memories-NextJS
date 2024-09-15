@@ -1,14 +1,7 @@
 import React from "react";
-import Image from "next/image";
-import Link from "next/link";
-
-import { FaFacebook } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
-import { FaPinterest } from "react-icons/fa";
 
 import FormDialog from "../../components/FormDialog";
-import Map from "../../components/MapProvider";
+
 import Accordian from "./components/accordianProvider";
 
 import ParagraphEffect from "./components/paraEffect";
@@ -28,10 +21,10 @@ const Home = () => {
       </section>
 
       {/*Do you know section*/}
-      <section className="px-12 py-20 bg-green-100">
+      <section className="px-12 py-20 bg-green-200">
         <div className="text-center ">
-          <h1 className="section-text">Do you know?</h1>
-          <div className="py-10">
+          <h1 className="section-text">Do You Know?</h1>
+          <div className="py-5">
             <ParagraphEffect />
           </div>
         </div>
@@ -39,7 +32,7 @@ const Home = () => {
 
       {/*Card section*/}
       <section className="px-12 py-20">
-        <p className="section-text text-center">We are available here</p>
+        <p className="section-text text-center">We Are Available Here</p>
         <div className="flex mt-10 justify-center">
           <BackgroundGradientDemo />
         </div>

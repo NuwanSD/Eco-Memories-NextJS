@@ -7,17 +7,11 @@ import {
   SheetTrigger,
 } from "../components/ui/sheet";
 
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from "../components/ui/popover";
-
 import Image from "next/image";
 import { Separator } from "../components/ui/separator";
 import Link from "next/link";
 import { useState } from "react";
-import { ChevronDown, ChevronUp } from "lucide-react";
+import { ChevronDown, ChevronUp, Menu } from "lucide-react";
 
 const MobileNav = () => {
   const [status, setStatus] = useState(false);
@@ -26,13 +20,7 @@ const MobileNav = () => {
     <nav className="md:hidden">
       <Sheet>
         <SheetTrigger className="align-middle">
-          <Image
-            src="/assets/icons/menu.svg"
-            alt="menu"
-            width={24}
-            height={24}
-            className="cursor-pointer"
-          />
+          <Menu />
         </SheetTrigger>
 
         <SheetContent className="flex flex-col bg-white md:hidden text-xl">
@@ -102,10 +90,6 @@ const MobileNav = () => {
               </div>
             )}
           </div>
-
-          {/* <Link href="/analytics" className="dropdown">
-            Anaylitcs
-          </Link> */}
         </SheetContent>
       </Sheet>
     </nav>
