@@ -42,7 +42,7 @@ const content = [
 
 const accordianProvider = () => {
   return (
-    <div className="mt-10">
+    <div className="mt-10 bg-gray-200 p-5 rounded-lg">
       {content.map((Item) => (
         <Accordion
           type="single"

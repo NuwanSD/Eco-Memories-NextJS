@@ -22,14 +22,13 @@ const formSchema = z.object({
   name: z.string().min(2, {
     message: "Name must be at least 2 characters.",
   }),
-  age: z.number().min(1),
+  age: z.string().min(1),
   description: z.string().min(2),
   country: z.string().min(2),
 });
 
 const FormDialog = () => {
   const [loading, setLoading] = useState(false);
-  const [dataType, setDataType] = useState(null);
 
   const form = useForm({
     resolver: zodResolver(formSchema),
@@ -51,10 +50,12 @@ const FormDialog = () => {
     } finally {
       setLoading(false);
     }
+
+    form.reset();
   };
 
   return (
-    <div className="flex xl:w-1/2 px-6 py-6 bg-slate-100 border-2 rounded-xl drop-shadow-xl">
+    <div className="flex w-full xl:w-1/2 px-6 py-6 bg-gray-200 border-2 rounded-xl drop-shadow-xl">
       <Form {...form}>
         <form
           onSubmit={form.handleSubmit(onSubmit)}

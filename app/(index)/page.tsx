@@ -9,6 +9,7 @@ import { ImagesSliderDemo } from "../../components/ImagesSlider";
 import { LayoutGridDemo } from "../../components/LayoutGridDemo";
 import { InfiniteMovingCardsDemo } from "../../components/MovingCard";
 import { BackgroundGradientDemo } from "./components/BgGradientDemo";
+import Image from "next/image";
 
 const Home = () => {
   return (
@@ -33,7 +34,7 @@ const Home = () => {
       {/*Card section*/}
       <section className="px-12 py-20">
         <p className="section-text text-center">We Are Available Here</p>
-        <div className="flex mt-10 justify-center">
+        <div className="flex mt-12 justify-center">
           <BackgroundGradientDemo />
         </div>
       </section>
@@ -41,12 +42,10 @@ const Home = () => {
       {/*Feedback section*/}
       <section className="px-12 py-20">
         <div className="feedback">
-          <p className="section-text text-center">
-            Give your valubale feedback
-          </p>
+          <p className="section-text text-center">Give Your Feedback</p>
           <div className=" flex mt-10 ">
             <div className="flex max-xl:flex-col gap-16">
-              <FormDialog /> {/*Feedback from*/}
+              <FormDialog />
               <div className="space-y-4 flex flex-col justify-center xl:w-1/2">
                 <p>
                   Plastic pollution is a global crisis that severely impacts our
@@ -81,7 +80,7 @@ const Home = () => {
       </section>
 
       <section className="px-12 py-20">
-        <h1 className="section-text text-center">Trending destination</h1>
+        <h1 className="section-text text-center">Trending Destination</h1>
         <div className=" mt-10">
           <LayoutGridDemo />
         </div>
@@ -89,13 +88,16 @@ const Home = () => {
 
       <section className="px-12 py-20">
         <div className="items-center justify-center">
-          <p className="section-text text-center">You need to know</p>
+          <p className="section-text text-center">You Need To Know</p>
           <Accordian />
         </div>
       </section>
 
       <section className="py-20 px-12">
-        <InfiniteMovingCardsDemo />
+        <h1 className="section-text text-center">Recommended Destination</h1>
+        <div className="mt-10">
+          <InfiniteMovingCardsDemo />
+        </div>
       </section>
     </>
   );

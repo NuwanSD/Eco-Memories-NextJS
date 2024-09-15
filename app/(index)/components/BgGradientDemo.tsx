@@ -48,7 +48,7 @@ const CardProvider = [
 
 export function BackgroundGradientDemo() {
   return (
-    <div className=" grid grid-cols-2 lg:grid-cols-4 gap-4">
+    <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
       {CardProvider.map((Item) => (
         <BackgroundGradient
           key={Item.id}
@@ -57,10 +57,10 @@ export function BackgroundGradientDemo() {
           <div>
             <Image
               src={`${Item.imgUrl}`}
-              alt="jordans"
-              height="384"
-              width="384"
-              className="object-contain"
+              alt={Item.title}
+              height="512"
+              width="512"
+              className="object-contain rounded-xl"
             />
             <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
               {Item.title}

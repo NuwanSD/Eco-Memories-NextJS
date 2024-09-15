@@ -16,7 +16,7 @@ const Navbar = () => {
   const [visible, setVisible] = useState(true);
 
   return (
-    <div className="navbar w-full gap-5 py-6 md:px-20 px-12 bg-green-200 font-semibold">
+    <div className="navbar w-full gap-5 py-6 md:px-20 px-12 bg-gray-200 font-semibold">
       <nav className="wrapper">
         <div className="flex-center flex-between">
           <div className="flex">
