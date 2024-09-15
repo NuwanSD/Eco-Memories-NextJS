@@ -1,11 +1,11 @@
 "use client";
+
 import { cn } from "../../../lib/utils";
-import Image from "next/image";
 
 export function CardDemo() {
   return (
-    <div className="w-full gap-5 flex max-md:flex-col items-center justify-center ">
-      <div className="max-w-xs w-full group/card">
+    <div className="w-full gap-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center">
+      <div className=" w-full group/card">
         <div
           className={cn(
             " cursor-pointer overflow-hidden relative card h-96 rounded-md shadow-xl  max-w-sm mx-auto backgroundImage flex flex-col justify-end p-4",
@@ -25,7 +25,8 @@ export function CardDemo() {
           </div>
         </div>
       </div>
-      <div className="max-w-xs w-full group/card">
+
+      <div className=" w-full group/card">
         <div
           className={cn(
             " cursor-pointer overflow-hidden relative card h-96 rounded-md shadow-xl  max-w-sm mx-auto backgroundImage flex flex-col justify-end p-4",
@@ -45,7 +46,8 @@ export function CardDemo() {
           </div>
         </div>
       </div>
-      <div className="max-w-xs w-full group/card">
+
+      <div className=" w-full group/card">
         <div
           className={cn(
             " cursor-pointer overflow-hidden relative card h-96 rounded-md shadow-xl  max-w-sm mx-auto backgroundImage flex flex-col justify-end p-4",
@@ -65,7 +67,8 @@ export function CardDemo() {
           </div>
         </div>
       </div>
-      <div className="max-w-xs w-full group/card">
+
+      <div className=" w-full group/card">
         <div
           className={cn(
             " cursor-pointer overflow-hidden relative card h-96 rounded-md shadow-xl  max-w-sm mx-auto backgroundImage flex flex-col justify-end p-4",
