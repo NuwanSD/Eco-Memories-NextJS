@@ -41,39 +41,30 @@ const dummyContent = [
     description: (
       <div className=" space-y-2">
         <p>
-          Sit duis est minim proident non nisi velit non consectetur. Esse
-          adipisicing laboris consectetur enim ipsum reprehenderit eu deserunt
-          Lorem ut aliqua anim do. Duis cupidatat qui irure cupidatat incididunt
-          incididunt enim magna id est qui sunt fugiat. Laboris do duis pariatur
-          fugiat Lorem aute sit ullamco. Qui deserunt non reprehenderit dolore
-          nisi velit exercitation Lorem qui do enim culpa. Aliqua eiusmod in
-          occaecat reprehenderit laborum nostrud fugiat voluptate do Lorem culpa
-          officia sint labore. Tempor consectetur excepteur ut fugiat veniam
-          commodo et labore dolore commodo pariatur.
+          Colombo is the executive and judicial capita and largest city of Sri
+          Lanka by population. According to the Brookings Institution, the
+          Colombo metropolitan area has a population of 5.6 million, and 752,993
+          in the Municipality. It is the financial centre of the island and a
+          tourist destination. It is located on the west coast of the island and
+          adjacent to the Greater Colombo area which includes Sri
+          Jayawardenepura Kotte, the legislative capital of Sri Lanka, and
+          Dehiwala-Mount Lavinia. Colombo is often referred to as the capital
+          since Sri Jayawardenepura Kotte is itself within the urban/suburban
+          area of Colombo. It is also the administrative capital of the Western
+          Province and the district capital of Colombo District. Colombo is a
+          busy and vibrant city with a mixture of modern life, colonial
+          buildings and monuments.
         </p>
         <p>
-          Dolor minim irure ut Lorem proident. Ipsum do pariatur est ad ad
-          veniam in commodo id reprehenderit adipisicing. Proident duis
-          exercitation ad quis ex cupidatat cupidatat occaecat adipisicing.
-        </p>
-        <p>
-          Tempor quis dolor veniam quis dolor. Sit reprehenderit eiusmod
-          reprehenderit deserunt amet laborum consequat adipisicing officia qui
-          irure id sint adipisicing. Adipisicing fugiat aliqua nulla nostrud.
-          Amet culpa officia aliquip deserunt veniam deserunt officia
-          adipisicing aliquip proident officia sunt.
-        </p>
-        <p>
-          Tempor quis dolor veniam quis dolor. Sit reprehenderit eiusmod
-          reprehenderit deserunt amet laborum consequat adipisicing officia qui
-          irure id sint adipisicing. Adipisicing fugiat aliqua nulla nostrud.
-          Amet culpa officia aliquip deserunt veniam deserunt officia
-          adipisicing aliquip proident officia sunt.
+          It was made the capital of the island when Sri Lanka was ceded to the
+          British Empire in 1815, and its status as capital was retained when
+          the nation became independent in 1948. In 1978, when administrative
+          functions were moved to Sri Jayawardenepura Kotte, Colombo was
+          designated as the commercial capital of Sri Lanka.
         </p>
       </div>
     ),
     badge: "History of Colombo City",
-    image:
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=3540&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "/assets/images/img (4).jpg",
   },
 ];

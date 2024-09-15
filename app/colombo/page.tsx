@@ -1,6 +1,5 @@
 import React from "react";
 import { TracingBeamDemo } from "./components/TracingBeamDemo";
-import CardHover from "./components/CardHover";
 import { CardDemo } from "./components/CardEffect";
 import { LayoutGridDemo } from "../../components/LayoutGridDemo";
 import PhotoCard from "./components/PhotoCard";
