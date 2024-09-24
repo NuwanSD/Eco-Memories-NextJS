@@ -28,7 +28,7 @@ const member = [
     name: "MANURATHNA N.B.U.S",
     imgUrl: "/assets/images/Ushitha.jpeg",
     degree: "BICT",
-    role: "Database Design",
+    role: "Application Design",
   },
   {
     id: 3,
@@ -44,7 +44,7 @@ const member = [
     name: "SERASINGHE V.U.V",
     imgUrl: "/assets/images/Upekha.jpeg",
     degree: "BET",
-    role: "Vending Machine Design",
+    role: "Wiring and box implementation",
   },
   {
     id: 5,
@@ -52,7 +52,7 @@ const member = [
     name: "FERNANDO K.G.T.P",
     imgUrl: "/assets/images/Tharushi.jpeg",
     degree: "BET",
-    role: "Vending Machine Design",
+    role: "Arduino Code Implementation",
   },
   {
     id: 6,
@@ -60,7 +60,7 @@ const member = [
     name: "MALHARI A.G.D",
     imgUrl: "/assets/images/Malhari.jpeg",
     degree: "BET",
-    role: "Vending Machine Design",
+    role: "Key Tag Design",
   },
 ];
 

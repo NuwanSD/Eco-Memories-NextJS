@@ -19,10 +19,10 @@ const CardProvider = [
   },
   {
     id: 2,
-    title: "Colombo",
+    title: "Sigiriya",
     description:
-      "Join us in Colombo to help reduce plastic waste and protect our vibrant cityscape. Every action counts!!",
-    imgUrl: "/assets/images/colombo-2.jpg",
+      "Join us in Sigiriya to help reduce plastic waste and protect our vibrant cityscape. Every action counts!!",
+    imgUrl: "/assets/images/sigiriya-1.jpg",
     vote: "",
     link: "",
   },
